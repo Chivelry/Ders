@@ -1,0 +1,15 @@
+body {
+    color: maroon;
+    background-color: maroon;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+.container {
+    text-align: center;
+    border: 5px inset darkorange;
+    background-color: burlywood;
+    margin: 5% auto;
+    width: 90%;
+    height: 40p;
+}
