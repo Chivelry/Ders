@@ -1,9 +1,9 @@
 # DERSTE YAPICAKLARIM
 
-Eren Can Nural, Mesleki Uygulamalar, Dankek çeşitleri arasında geçiş yapıyorum çünkü Dankek severim.
-(GEÇİCİ)
+Eren Can Nural, Mesleki Uygulamalar
 
 (YAPMAYI DÜŞÜNDÜĞÜM)
-Farklı sayfalar arasında geçiş yapıcam. Barlarda gördüğümüz menü aslında. QR koymayı daha planlamıyorum.
-Soğuk ve Sıcak İçecekler, Menüler, Tatlılar gibi gibi sayfalar olucak, Fiyatlar olucak resimler de.
+Bisiklet, Elektrikli Bisiklet katalog sitesi.
+Bisikletlerin çeşitli özellikleri, görselleri, renk seçimleri.
+Filtre özellikli(Modele göre, bisiklet tipine göre)
 
