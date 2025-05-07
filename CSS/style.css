@@ -1,5 +1,9 @@
 html {
-    min-width: 400px    
+    min-width: 400px;  
+}
+
+body {
+    font-family: "Ubuntu", sans-serif; 
 }
 
 img.navbar-brand {
@@ -16,18 +20,85 @@ nav div.container-fluid {
     font-size: 1.15em;
 }
 
-.carousel {
+#carousel {
     border-bottom: 5px solid black;
+}
+.red-section img {
+    width: 100px;
+}
+
+.red-section p, .red-section h5 {
+    font-size: smaller;
+}
+
+.red-section button {
+    border: none;
+    color: white;
+    font-weight: bolder;
+    padding: 10px 48px;
+    font-size: smaller;
+    font-family: "Rajdhani", sans-serif;
+    background-color: black;
+}
+
+.red-section .container .col, .white-section .container .col {
+    max-width: fit-content;
+}
+
+.red-section .row, .white-section .row {    
+    font-weight: lighter;
+    padding: 20px 0px;
+    text-align: center;
+    width: 70%;
 }
 
 .red-section {
+    padding-top: 28px;
     place-items: center;
     color: white;
     background-color: rgb(154, 35, 35);
 }
 
-.red-section img {
-    width: 100px;
+.white-section {
+    padding: 24px 0px;
+    place-items: center;
+    background-color: #f2f2f2;
+}
+
+
+.section-header {
+    font-family: "Heebo", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 12px;
+}
+
+.logo-line-header {
+    align-items: center;
+    place-content: center;
+}
+
+.white-section .section-header, #modellerimiz .section-header {
+    color: rgb(218, 0, 0);
+}
+.red-section .section-header {
+    color: white;
+}
+
+.white-section .header, #modellerimiz .header {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: bold;
+}
+.white-section .header {
+    font-size: 36px;
+}
+#modellerimiz .header {
+    font-size: 3.5rem;
+}
+
+.white-section .line {
+    border-left:1px solid #b7b7b7;
+    height: 30px;
 }
 
 .red-section .line {
@@ -35,27 +106,17 @@ nav div.container-fluid {
     height: 30px;
 }
 
-.red-section button {
-    border: none;
-    color: white;
-    font-weight: bolder;
-    padding: 14px 60px;
-    font-size: larger;
-    font-family: "Rajdhani", sans-serif;
-    background-color: black;
+@media (max-width: 549px) {
+    .white-section .line {
+        border: none;
+    }
 }
 
-.red-section .first-part .col {
-    max-width: fit-content;
+@media (max-width: 511px) {
+    .red-section .line {
+        border: none;
+    }
 }
 
-.first-part {
-    place-content: center;
-}
 
-.red-section .row {
-    font-weight: lighter;
-    padding: 24px 0px;
-    text-align: center;
-    width: 80%;
-}
+

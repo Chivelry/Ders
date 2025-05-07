@@ -1,0 +1,25 @@
+{
+    "bikes": [
+        {
+            "frog-bikes-city-61-hybrid-kids-bike-2024": {
+                "title": "Frog Bikes City 61 Hybrid Kids Bike 2024",
+                "images": [
+                    "/IMG/BICYCLES/KIDS/bicycles_kids_1.0.png",
+                    "/IMG/BICYCLES/KIDS/bicycles_kids_1.1.png",
+                    "/IMG/BICYCLES/KIDS/bicycles_kids_1.2.png"
+                ],
+                "description": "Yüksek performanslı kadro ve mükemmel aerodinamik tasarıma sahip profesyonel yol bisikleti.",
+                "price": "$590"
+            },
+            "frog-bikes-city-53-hybrid-kids-bike-2024": {
+                "title": "Frog Bikes City 53 Hybrid Kids Bike 2024",
+                "images": [
+                    "/IMG/BICYCLES/KIDS/bicycles_kids_2.0.png",
+                    "/IMG/BICYCLES/KIDS/bicycles_kids_2.1.png"
+                ],
+                "description": "Hızlı ve stabil bir sürüş deneyimi için optimize edilmiş karbon kadro.",
+                "price": "$550"
+            }
+        }
+    ]
+}
