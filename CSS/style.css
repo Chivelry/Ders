@@ -1,6 +1,7 @@
-body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+html {
+    min-width: 400px    
 }
+
 img.navbar-brand {
     width: 15%;
     margin-right: 5%;
@@ -15,26 +16,46 @@ nav div.container-fluid {
     font-size: 1.15em;
 }
 
-.manifest {
+.carousel {
+    border-bottom: 5px solid black;
+}
+
+.red-section {
+    place-items: center;
     color: white;
-    padding: 40px;
-    text-align: center;
+    background-color: rgb(154, 35, 35);
 }
 
-.manifest .col-md *{
-    padding: 20px 0;
+.red-section img {
+    width: 100px;
 }
 
-.manifest .row {
+.red-section .line {
+    border-left:1px solid #ffffff;
+    height: 30px;
+}
+
+.red-section button {
+    border: none;
+    color: white;
+    font-weight: bolder;
+    padding: 14px 60px;
+    font-size: larger;
+    font-family: "Rajdhani", sans-serif;
+    background-color: black;
+}
+
+.red-section .first-part .col {
+    max-width: fit-content;
+}
+
+.first-part {
     place-content: center;
 }
 
-.manifest img {
-    width: 150px;
-}
-
-.line {
-    border-right: 2px solid white;
-    height: 45px;
-    width: min-content;
+.red-section .row {
+    font-weight: lighter;
+    padding: 24px 0px;
+    text-align: center;
+    width: 80%;
 }
