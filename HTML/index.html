@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"rel="stylesheet"integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"crossorigin="anonymous"/>
         <link rel="stylesheet" href="../CSS/style.css">
+        <link rel="stylesheet" href="../CSS/index.css">
         <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Rajdhani:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">    </head>
     <body>
         <header>
@@ -26,50 +27,22 @@
                     <div class="collapse navbar-collapse" id="collapsibleNavId">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" href="#" aria-current="page"
-                                    >Modeller
+                                <a class="nav-link active" href="index.html" aria-current="page"
+                                    >ANA SAYFA
                                     <span class="visually-hidden">(current)</span></a
                                 >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#" aria-current="page"
-                                    >Fiyat Listesi
+                                <a class="nav-link active" href="bike-catalogue.html" aria-current="page"
+                                    >KATALOG
                                     <span class="visually-hidden">(current)</span></a
                                 >
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#" aria-current="page"
-                                    >Hakkımızda
+                                <a class="nav-link active" href="about-us.html" aria-current="page"
+                                    >HAKKIMIZDA
                                     <span class="visually-hidden">(current)</span></a
                                 >
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="#" aria-current="page"
-                                    >İletişim
-                                    <span class="visually-hidden">(current)</span></a
-                                >
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a
-                                    class="nav-link active dropdown-toggle"
-                                    href="#"
-                                    id="dropdownId"
-                                    data-bs-toggle="dropdown"
-                                    aria-haspopup="true"
-                                    aria-expanded="false"
-                                    >Medya</a
-                                >
-                                <div
-                                    class="dropdown-menu"
-                                    aria-labelledby="dropdownId"
-                                >
-                                    <a class="dropdown-item" href="#"
-                                        >Action 1</a
-                                    >
-                                    <a class="dropdown-item" href="#"
-                                        >Action 2</a
-                                    >
-                                </div>
                             </li>
                         </ul>
                     </div>
@@ -128,7 +101,7 @@
                 </div>
                 <div class="row">
                     <div class="col">
-                        <button>DEVAMI</button> 
+                        <button onclick="document.location='about-us.html'">DEVAMI</button> 
                     </div>
                 </div>
             </div>
@@ -200,14 +173,14 @@
             </div>
             <div class="haberler">
                 <div class="row container-fluid justify-content-center">
-                    <div class="col-3">
-                        <div class="row">
+                    <div class="col-sm-6">
+                        <div class="row justify-content-center">
                             <img src="../IMG/NEWS/news_1.jpg" alt="">
                             <span>HABER 1</span>
                         </div>
                     </div>
-                    <div class="col-3">
-                        <div class="row">
+                    <div class="col-sm-6">
+                        <div class="row justify-content-center">
                             <img src="../IMG/NEWS/news_2.jpg" alt="">
                             <span>HABER 2</span>
                         </div>
@@ -220,20 +193,10 @@
                     <div class="row">
                         <span>MARKALARIMIZ</span>
                     </div>
-                    <div class="row container-fluid justify-content-center" style="padding: 20px 0px 0px 0px;">
-                        <div class="col-2">
+                    <div class="row container-fluid justify-content-center">
+                        <div class="col">
                             <div class="row">
                                 <img src="../IMG/ETC/saydam-logo.png" alt="">
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="row">
-                                <img src="../IMG/ETC/segway-logo.png" alt="">
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="row">
-                                <img src="../IMG/ETC/benelli-logo.png" alt="">
                             </div>
                         </div>
                     </div>
@@ -242,34 +205,30 @@
         </main>
         <footer>
             <div class="row container-fluid justify-content-center" style="padding: 20px 0px 0px 0px;">
-                <div class="col-2">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4">
                     <div class="row">
-                        <div class="col">
-                            <span>MARKALARIMIZ</span>
+                        <span>SKS BİSİKLET</span>
+                    </div>
+                    <div class="row">
+                        <p>Açıklama.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="row">
+                            <span>BİZİ TAKİP EDİN</span>
+                    </div>
+                    <div class="row">
+                        <div class="container">
+                            <a href="https://github.com">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                                </svg>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <div class="col-2">
-                    <div class="row">
-                        <div class="col">
-                            <span>MARKALARIMIZ</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="row">
-                        <div class="col">
-                            <span>MARKALARIMIZ</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="row">
-                        <div class="col">
-                            <span>MARKALARIMIZ</span>
-                        </div>
-                    </div>
-                </div>
+                <div class="col-sm-2"></div>
             </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"crossorigin="anonymous"></script>

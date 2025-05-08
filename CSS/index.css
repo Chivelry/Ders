@@ -1,0 +1,135 @@
+#carousel {
+    border-bottom: 5px solid black;
+}
+.red-section img {
+    width: 100px;
+}
+
+.red-section p, .red-section h5 {
+    font-size: smaller;
+}
+
+.red-section button {
+    border: none;
+    color: white;
+    font-weight: bolder;
+    padding: 10px 48px;
+    font-size: smaller;
+    font-family: "Rajdhani", sans-serif;
+    background-color: black;
+}
+
+.red-section .container .col, .white-section .container .col {
+    max-width: fit-content;
+}
+
+.red-section .row, .white-section .row {    
+    font-weight: lighter;
+    padding: 20px 0px;
+    text-align: center;
+    width: 70%;
+}
+
+.red-section {
+    padding-top: 28px;
+    place-items: center;
+    color: white;
+    background-color: rgb(154, 35, 35);
+}
+
+.white-section {
+    padding: 24px 0px;
+    place-items: center;
+    background-color: #f2f2f2;
+}
+
+
+.section-header {
+    font-family: "Heebo", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    letter-spacing: 12px;
+}
+
+.logo-line-header {
+    align-items: center;
+    place-content: center;
+}
+
+.white-section .section-header, #modellerimiz .section-header {
+    color: rgb(218, 0, 0);
+}
+.red-section .section-header {
+    color: white;
+}
+
+.white-section .header, #modellerimiz .header, .haberler .row, .markalarimiz .row {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: bold;
+}
+.white-section .header {
+    font-size: 36px;
+}
+#modellerimiz .header {
+    font-size: 3.5rem;
+}
+
+.white-section .line {
+    border-left:1px solid #b7b7b7;
+    height: 30px;
+}
+
+.red-section .line {
+    border-left:1px solid #ffffff;
+    height: 30px;
+}
+
+.haberler img {
+    margin: 20px 0px;
+    width: 50%;
+}
+
+.haberler, .markalarimiz {
+    text-align: center;
+    font-size: larger;
+}
+
+.haberler {
+    padding: 40px 0;
+}
+
+.markalarimiz {
+    padding: 30px 0px;
+}
+
+.markalarimiz img {
+    width: 10rem;
+    padding: 0;
+}
+
+.markalarimiz .row {
+    padding: 10px;
+    place-content: center;
+}
+
+.markalarimiz .row .col {
+    padding: 0;
+}
+
+.black {
+    width: 100%;
+    background-color: black;
+    height: 20px;
+}
+
+@media (max-width: 549px) {
+    .white-section .line {
+        border: none;
+    }
+}
+
+@media (max-width: 511px) {
+    .red-section .line {
+        border: none;
+    }
+}

@@ -1,0 +1,26 @@
+.about-us {
+    margin: 40px;
+    padding: 60px;
+    place-self: center;
+    background-color: black;
+    text-align: center;
+}
+
+.about-us h1 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+.about-us p {
+    font-family: "Ubuntu", sans-serif;
+    color: #808080; 
+}
+
+.about-us-tr {
+    margin: 36px 0 48px 0;
+}
+
+.about-us img {
+    width: 8rem;
+}
