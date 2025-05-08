@@ -85,7 +85,7 @@ nav div.container-fluid {
     color: white;
 }
 
-.white-section .header, #modellerimiz .header {
+.white-section .header, #modellerimiz .header, .haberler .row, .markalarimiz .row {
     font-family: "Rajdhani", sans-serif;
     font-weight: bold;
 }
@@ -106,6 +106,29 @@ nav div.container-fluid {
     height: 30px;
 }
 
+.haberler img {
+    margin: 20px 0px;
+}
+
+.haberler, .markalarimiz {
+    text-align: center;
+    font-size: larger;
+}
+
+.haberler {
+    padding: 20px 0;
+}
+
+.markalarimiz {
+    padding: 30px 0px 10px 0px;
+}
+
+.black {
+    width: 100%;
+    background-color: black;
+    height: 20px;
+}
+
 @media (max-width: 549px) {
     .white-section .line {
         border: none;
@@ -118,5 +141,8 @@ nav div.container-fluid {
     }
 }
 
-
+footer {
+    padding: 48px 20px;
+    background-color: black;
+}
 
