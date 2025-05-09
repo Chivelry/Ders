@@ -1,25 +1,37 @@
 {
     "bikes": [
         {
-            "frog-bikes-city-61-hybrid-kids-bike-2024": {
-                "title": "Frog Bikes City 61 Hybrid Kids Bike 2024",
-                "images": [
-                    "/IMG/BICYCLES/KIDS/bicycles_kids_1.0.png",
-                    "/IMG/BICYCLES/KIDS/bicycles_kids_1.1.png",
-                    "/IMG/BICYCLES/KIDS/bicycles_kids_1.2.png"
-                ],
-                "description": "Yüksek performanslı kadro ve mükemmel aerodinamik tasarıma sahip profesyonel yol bisikleti.",
-                "price": "$590"
-            },
-            "frog-bikes-city-53-hybrid-kids-bike-2024": {
-                "title": "Frog Bikes City 53 Hybrid Kids Bike 2024",
-                "images": [
-                    "/IMG/BICYCLES/KIDS/bicycles_kids_2.0.png",
-                    "/IMG/BICYCLES/KIDS/bicycles_kids_2.1.png"
-                ],
-                "description": "Hızlı ve stabil bir sürüş deneyimi için optimize edilmiş karbon kadro.",
-                "price": "$550"
-            }
+            "id": 1,
+            "name": "Frog Bikes City 61 Hybrid Kids Bike 2024",
+            "code": "L-FC67-BLA",
+            "category": "Kids",
+            "images": [
+                "../IMG/BICYCLES/KIDS/bicycle_kids_1.0.png",
+                "../IMG/BICYCLES/KIDS/bicycle_kids_1.1.png",
+                "../IMG/BICYCLES/KIDS/bicycle_kids_1.2.png"
+            ],
+            "description": "See your city in a new light on the Frog City bike range. Frog City bikes are the ultimate urban bikes for children to commute to school or leisurely explore the city in comfort and style.",
+            "price": "$590",
+            "wheelSize": "26 inch",
+            "insideLegOrAgeRange": "10-12",
+            "gearNumbers": "8",
+            "weight": "9.61kg (with pedals) / 11.01kg (with pedals & accessories)"
+        },
+        {
+            "id": 2,
+            "name": "Frog Bikes City 53 Hybrid Kids Bike 2024",
+            "code": "L-FC53-TEA",
+            "category": "Kids",
+            "images": [
+                "../IMG/BICYCLES/KIDS/bicycle_kids_2.0.png",
+                "../IMG/BICYCLES/KIDS/bicycle_kids_2.1.png"
+            ],
+            "description": "See your city in a new light on the Frog City bike range. Frog City bikes are the ultimate urban bikes for children to commute to school or leisurely explore the city in comfort and style.",
+            "price": "$550",
+            "wheelSize": "20 inch",
+            "insideLegOrAgeRange": "5-7",
+            "gearNumbers": "8",
+            "weight": "No Info"
         }
     ]
 }

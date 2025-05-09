@@ -4,6 +4,10 @@ html {
 
 body {
     font-family: "Ubuntu", sans-serif; 
+    min-height: 100vh;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
 }
 
 img.navbar-brand {
@@ -30,6 +34,7 @@ nav div.container-fluid {
 
 
 footer {
+    margin-top: auto;
     text-align: center;
     color: white;
     padding: 48px 0;
