@@ -11,8 +11,8 @@
                 "../IMG/BICYCLES/KIDS/bicycle_kids_1.2.png"
             ],
             "description": "See your city in a new light on the Frog City bike range. Frog City bikes are the ultimate urban bikes for children to commute to school or leisurely explore the city in comfort and style.",
-            "price": "$590",
-            "wheelSize": "26 inch",
+            "price": "£590",
+            "wheelSize": "26 inches",
             "insideLegOrAgeRange": "10-12",
             "gearNumbers": "8",
             "weight": "9.61kg (with pedals) / 11.01kg (with pedals & accessories)"
@@ -27,11 +27,148 @@
                 "../IMG/BICYCLES/KIDS/bicycle_kids_2.1.png"
             ],
             "description": "See your city in a new light on the Frog City bike range. Frog City bikes are the ultimate urban bikes for children to commute to school or leisurely explore the city in comfort and style.",
-            "price": "$550",
-            "wheelSize": "20 inch",
+            "price": "£550",
+            "wheelSize": "20 inches",
             "insideLegOrAgeRange": "5-7",
             "gearNumbers": "8",
-            "weight": "No Info"
+            "weight": "Not Available"
+        },
+        {
+            "id": 3,
+            "name": "Trek Checkpoint ALR 4 Gravel Bike 2025",
+            "code": "41513BLU",
+            "category": "Gravel",
+            "images": [
+                "../IMG/BICYCLES/GRAVEL/bicycle_gravel_1.0.png",
+                "../IMG/BICYCLES/GRAVEL/bicycle_gravel_1.1.png"
+            ],
+            "description": "Checkpoint ALR 4 is the best-value gravel bike in the line-up.Kitted out with a 300 Series Alpha Aluminium frame, the Checkpoint ALR 4 is just as responsive on chunky gravel roads as it is smooth on the tarmac. Loads of features like tubeless-ready wheels, a SRAM Apex 11-speed drivetrain and mechanical disc brakes make Checkpoint ALR 4 the perfect ride for ease of entry into the wide world of gravel.",
+            "price": "£1,450",
+            "wheelSize": "29 inches",
+            "insideLegOrAgeRange": "13+",
+            "gearNumbers": "11",
+            "weight": "56 - 9.91 kg / 21.85 lbs (with TLR sealant, no tubes)"
+        },
+        {
+            "id": 4,
+            "name": "Trek Checkpoint ALR 5 Gravel Bike 2025",
+            "code": "41640GRY",
+            "category": "Gravel",
+            "images": [
+                "../IMG/BICYCLES/GRAVEL/bicycle_gravel_2.0.png",
+                "../IMG/BICYCLES/GRAVEL/bicycle_gravel_2.1.png"
+            ],
+            "description": "The Checkpoint ALR 5 is a high-value alloy gravel bike that's kitted out with quality parts for long, rugged, miles on anything from chunky gravel to smooth road surfaces.A wealth of features like nimble yet stable progressive geometry, loads of mounts for epic bikepacking adventures, plus a SRAM Apex 1x12-speed drivetrain makes customising for any adventure easy.",
+            "price": "£2,350",
+            "wheelSize": "29 inches",
+            "insideLegOrAgeRange": "13+",
+            "gearNumbers": "12",
+            "weight": "56 - 9.71 kg / 21.41 lbs (with TLR sealant, no tubes)"
+        },
+        {
+            "id": 5,
+            "name": "Trek Domane SL 7 Gen 4 Carbon Road Bike 2024",
+            "code": "36153Gravel",
+            "category": "Road",
+            "images": [
+                "../IMG/BICYCLES/ROAD/bicycle_road_1.0.png"
+            ],
+            "description": "The Domane SL 7 is a light and capable endurance road bike that's ready to take on long miles and rough roads. With an electronic Ultegra Di2 drivetrain for lightning-fast precision shifting in any conditions, you know it can hold its own when conditions are demanding. A lightweight OCLV Carbon frame with rear IsoSpeed, carbon wheels and hydraulic disc brakes keep it smooth and fast on long rides. An internally-cabled cockpit keeps your set-up looking as sleek as it feels and an easy-access storage compartment stows ride essentials. Plus, you get an electronic Shimano Ultegra Di2 drivetrain for lightning-fast precision shifting in any condition.",
+            "price": "£4,195",
+            "wheelSize": "29 inches",
+            "insideLegOrAgeRange": "13+",
+            "gearNumbers": "24",
+            "weight": "56 - 8.26 kg/18.22 lb"
+        },
+        {
+            "id": 6,
+            "name": "Trek Madone SLR 7 Di2 Gen 8 Road Bike 2025",
+            "code": "46687WHT",
+            "category": "Road",
+            "images": [
+                "../IMG/BICYCLES/ROAD/bicycle_road_2.0.png",
+                "../IMG/BICYCLES/ROAD/bicycle_road_2.1.png",
+                "../IMG/BICYCLES/ROAD/bicycle_road_2.2.png",
+                "../IMG/BICYCLES/ROAD/bicycle_road_2.3.png",
+                "../IMG/BICYCLES/ROAD/bicycle_road_2.4.png"
+            ],
+            "description": "The Madone SLR 7 Gen 8 is an ultra-aero and featherlight road bike that's built to race. Its 900 Series OCLV Carbon frame is not only aerodynamic, but also ultra-light for flying up climbs. Lightweight IsoFlow frame technology means that the Madone doesn't sacrifice comfort for speed. To give you every aero advantage, the Madone SLR comes with RSL Aero Bottles and Cages that further reduce drag. This build comes ready to win with a Shimano Ultegra Di2 group set, carbon wheels and a Trek Aero RSL one-piece carbon bar/stem.",
+            "price": "£8,000",
+            "wheelSize": "29 inches",
+            "insideLegOrAgeRange": "13+",
+            "gearNumbers": "24",
+            "weight": "ML - 7.31 kg / 16.12 lbs (with TLR sealant, no tubes)"
+        },
+        {
+            "id": 7,
+            "name": "Trek Roscoe 7 Hardtail Mountain Bike 2025",
+            "code": "35116BLU",
+            "category": "Mountain",
+            "images": [
+                "../IMG/BICYCLES/MOUNTAIN/bicycle_mountain_1.0.png",
+                "../IMG/BICYCLES/MOUNTAIN/bicycle_mountain_1.1.png",
+                "../IMG/BICYCLES/MOUNTAIN/bicycle_mountain_1.2.png"
+            ],
+            "description": "The Roscoe 7 is a hardtail for riders who want to have a blast ripping up the trail. A plush 140 mm suspension fork, 29er wheels, and a wide-range drivetrain with plenty of gears make this bike great for new riders yet playful enough to make even the most experienced shredders smile.",
+            "price": "£995",
+            "wheelSize": "27.5 - 29 inches",
+            "insideLegOrAgeRange": "13+",
+            "gearNumbers": "12",
+            "weight": "Not Available"
+        },
+        {
+            "id": 8,
+            "name": "Scott Aspect 950 Hardtail Mountain Bike 2024",
+            "code": "280560",
+            "category": "Mountain",
+            "images": [
+                "../IMG/BICYCLES/MOUNTAIN/bicycle_mountain_2.0.png",
+                "../IMG/BICYCLES/MOUNTAIN/bicycle_mountain_2.1.png"
+            ],
+            "description": "The Scott Aspect 950 is the perfect mountain bike to get out onto the trails. It's a fully capable hardtail mountain bike with expert tech where it matters most, like in the lightweight and durable alloy frame, Suntour 100mm fork, Shimano 18 speed drivetrain and hydro disc brakes. This is the perfect if you're new to mountain biking and want a high-value bike that's perfect for local XC trails.",
+            "price": "£419",
+            "wheelSize": "29 inches",
+            "insideLegOrAgeRange": "13+",
+            "gearNumbers": "18",
+            "weight": "14.40kg 31.75lbs"
+        },
+        {
+            "id": 9,
+            "name": "Brompton P Line Explore 12 Speed Folding Bike 2025",
+            "code": "PLINE12 LunarICE",
+            "category": "Folding",
+            "images": [
+                "../IMG/BICYCLES/FOLDING/bicycle_folding_2.0.png",
+                "../IMG/BICYCLES/FOLDING/bicycle_folding_2.1.png",
+                "../IMG/BICYCLES/FOLDING/bicycle_folding_2.2.png",
+                "../IMG/BICYCLES/FOLDING/bicycle_folding_2.3.png",
+                "../IMG/BICYCLES/FOLDING/bicycle_folding_2.4.png"
+            ],
+            "description": "The titanium Folding P-Line range - Performance the lightweight transformation, Next level frame. Next-level componentry. A next level ride. The lightweight frame is 700 grams lighter than all-steel equivalents allowing easy transportation and agile riding. City exploration should be fun and smooth, which the P Line Explore - 12 Speed model guarantees. Features that facilitate this include the responsive suspension block, shock-absorbing titanium frame, and the 12-speed gearing system to ensure a comfortable ride at any speed. In addition, the intelligently engineered gears have been crafted with city adventures being considered meaning you can safely weave around tight corners and alongside traffic with complete control.",
+            "price": "£2,519",
+            "wheelSize": "23 inches",
+            "insideLegOrAgeRange": "5-7",
+            "gearNumbers": "12",
+            "weight": "Approx. 10.5 kg"
+        },
+        {
+            "id": 10,
+            "name": "Brompton C Line 12-Speed Folding Bike 2025",
+            "code": "CLINEHIGH12AMETHYST",
+            "category": "Folding",
+            "images": [
+                "../IMG/BICYCLES/FOLDING/bicycle_folding_1.0.png",
+                "../IMG/BICYCLES/FOLDING/bicycle_folding_1.1.png",
+                "../IMG/BICYCLES/FOLDING/bicycle_folding_1.2.png",
+                "../IMG/BICYCLES/FOLDING/bicycle_folding_1.3.png",
+                "../IMG/BICYCLES/FOLDING/bicycle_folding_1.4.png"
+            ],
+            "description": "The Classic All-Steel Folding Bike. The 12-speed do-it-all workhorse – geared up to go further. Covers all contours, at home or further afield. Load this 12-speed all-steel workhorse with luggage and a rack for all-weather commuting or touring, then go explore. Some owners have cycled these around the world. Most use them to improve their day-to-day.",
+            "price": "£1,824",
+            "wheelSize": "16 inches",
+            "insideLegOrAgeRange": "No Range",
+            "gearNumbers": "12",
+            "weight": "Approx. 12.2kg"
         }
     ]
 }

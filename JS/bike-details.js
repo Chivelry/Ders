@@ -17,6 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const bikeILAR = document.getElementById("bike-ilar");
                 const bikeGearNumbers = document.getElementById("bike-nog");
                 const bikeWeight = document.getElementById("bike-weight");
+                const bikeDescription = document.getElementById("bike-description");
 
                 carouselInner.innerHTML = ``;
                 thumbnailContainer.innerHTML = ``;
@@ -27,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 bikeWheelSize.innerHTML = ``;
                 bikeILAR.innerHTML = ``;
                 bikeGearNumbers.innerHTML = ``;
-                bikeWeight.innerHTML = ``;
+                bikeDescription.innerHTML = ``;
                 
 
                 bike.images.forEach((image, index) => {
@@ -50,6 +51,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 bikeILAR.innerHTML = `${bike.insideLegOrAgeRange}`;
                 bikeGearNumbers.innerHTML = `${bike.gearNumbers}`;
                 bikeWeight.innerHTML = `${bike.weight}`;
+                bikeDescription.innerHTML = `${bike.description}`;
+
 
             } else {
                 document.getElementById("carousel-images").innerHTML = "<p>Bisiklet bulunamadı!</p>";

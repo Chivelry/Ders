@@ -1,0 +1,38 @@
+main {
+    margin: 20px;
+}
+
+.card {
+    padding: 10px;
+    border: 4px groove black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+.card img {
+    border: 2px solid black;
+}
+
+.card-img-top {
+    object-fit: contain;
+    width: 100%;
+}
+
+.card img:hover {
+    border: 2px solid red;
+}
+
+h5 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: bold;
+}
+
+p {
+    font-family: "Ubuntu", sans-serif; 
+    font-size: larger;
+}
