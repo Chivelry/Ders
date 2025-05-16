@@ -1,7 +1,9 @@
+/*--- Katalog Bölümü ---*/
 main {
     margin: 20px;
 }
 
+/*-- Kardlar --*/
 .card {
     padding: 10px;
     border: 4px groove black;
@@ -27,12 +29,36 @@ main {
     border: 2px solid red;
 }
 
-h5 {
+/*-- Dropdown, Buton, Bisiklet Bulunamadı ve Diğer İfadeler --*/
+h5, .btn {
     font-family: "Rajdhani", sans-serif;
     font-weight: bold;
+}
+
+.btn {
+    border: 1px solid black;
+    font-size: larger;
+}
+
+.btn:hover {
+    border: 1px solid red;
+}
+
+span {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
 }
 
 p {
     font-family: "Ubuntu", sans-serif; 
     font-size: larger;
+}
+
+.dropdown-menu {
+    padding-left: 10px;
+}
+
+.dropdown-item:active {
+    background-color: red;
+    color: white;
 }

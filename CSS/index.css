@@ -1,12 +1,17 @@
+/*--- Ana Sayfa Bölümü ---*/
+
+/*-- Carousel Bölümü --*/
 #carousel {
     border-bottom: 5px solid black;
 }
+
+/*-- Kırmızı ve Beyaz (Manifesto ve Haberlerimiz vb.) Bölümler --*/
 .red-section img {
     width: 100px;
 }
 
 .red-section p, .red-section h5 {
-    font-size: smaller;
+    font-size: large;
 }
 
 .red-section button {
@@ -84,6 +89,7 @@
     height: 30px;
 }
 
+/*-- Haberler ve Markalarımız Bölümü --*/
 .haberler img {
     margin: 20px 0px;
     width: 50%;
@@ -116,12 +122,14 @@
     padding: 0;
 }
 
+/*-- Siyah Çizgi --*/
 .black {
     width: 100%;
     background-color: black;
     height: 20px;
 }
 
+/*-- Ekran Boyutuna Göre Ayarlar --*/
 @media (max-width: 549px) {
     .white-section .line {
         border: none;

@@ -1,3 +1,4 @@
+/*--- Hakkımızda Bölümü ---*/
 .about-us {
     margin: 40px 0px;
     padding: 60px;
@@ -13,6 +14,7 @@
 }
 
 .about-us p {
+    font-size: larger;
     font-family: "Ubuntu", sans-serif;
     color: #808080; 
 }

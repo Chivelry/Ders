@@ -1,3 +1,4 @@
+/*-- Ortak Bölüm ---*/
 html {
     min-width: 400px;  
 }
@@ -10,6 +11,7 @@ body {
     flex-direction: column;
 }
 
+/*-- Navigasyon Bölümü --*/
 img.navbar-brand {
     width: 15%;
     margin-right: 5%;
@@ -32,7 +34,7 @@ nav div.container-fluid {
     font-size: 1.15em;
 }
 
-
+/*-- Footer Bölümü --*/
 footer {
     margin-top: auto;
     text-align: center;
@@ -49,6 +51,7 @@ footer span {
 }
 
 footer .container {
+    margin: 10px auto 40px auto;
     width: fit-content;
 }
 
@@ -68,6 +71,7 @@ footer .col-sm-4 {
     padding: 0 5%;
 }
 
+/*-- Ekran Boyutuna Göre Ayarlar --*/
 @media screen and (max-width: 576px) {
     footer .col-sm-4 {
         padding: 2% 10%;

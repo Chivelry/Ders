@@ -1,7 +1,9 @@
+/*--- Carousel ---*/
 .carousel {
     border: 6px groove black;
 }
 
+/*-- Bisikelt Başlıklar, Bilgi Başlıkları ve Metinleri --*/
 .bike h1 {
     font-family: "Rajdhani", sans-serif;
     font-weight: bold;
@@ -17,7 +19,7 @@
     font-weight: bolder;
 }
 
-
+/*-- Carousel Fotoğraf ve Slider --*/
 .thumbnail-slider {
     margin-top: 15px;
     text-align: center;
@@ -34,6 +36,7 @@
     border: 2px groove black;
 }
 
+/*-- Bisiklet Bilgi Bölümü --*/
 .info-row {
     margin: 10px 0px;
 }

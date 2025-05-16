@@ -1,0 +1,5 @@
+{
+  "categories": ["Kids", "Mountain", "Gravel", "Folding", "Road"],
+  "brands": ["Trek", "Frog", "Scott", "Brompton"],
+  "priceRanges": ["0-500£", "500£-1000£", "1000£-2000£", "2000£+"]
+}
