@@ -20,7 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
             populateDropdown(["Tüm Bisikletler", ...filterData.categories], "categoryList", "categoryDropdown"); //Kategorile
             populateDropdown(["Tüm Markalar", ...filterData.brands], "brandList", "brandDropdown"); //Markalar
             populateDropdown(["Tüm Fiyatlar", ...filterData.priceRanges], "priceList", "priceDropdown"); //Fiyatlar
-            updateCatalogue();
         })
         .catch(error => console.error("Filtreler yüklenirken hata oluştu:", error));
 });
@@ -35,7 +34,8 @@ function populateDropdown(items, listId, buttonId) {
         let listItem = document.createElement("li");
         listItem.innerHTML = `<a class="dropdown-item" href="#">${item}</a>`;
         listItem.addEventListener("click", () => {
-            document.getElementById(buttonId).innerText = item;
+            document.getElementById(buttonId).innerText = item;        
+            updateCatalogue();
         });
         list.appendChild(listItem);
     });
