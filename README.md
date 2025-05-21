@@ -6,12 +6,18 @@ NOT: BU SİTE SADECE EĞİTİM AMAÇLIDIR, HİÇ BİR FİRMAYA YA DA KİMSEYE SA
 
 Eren Can Nural, Mesleki Uygulamalar dersi final projesi.
 
-# SİTENİN ÖZELLİKLERİ
+# SİTE AÇIKLAMASI
 
-Bisikletlerin çeşitli özellikleri, görselleri, renk seçimleri ve filtreleme seçenekli bir katalog sitesi.
+Kullanıcılara farklı fiyat, marka ve kategoride bisikletleri detayları ile birlikte inceleme imkanı sunan bir katalog sitesi.
+
+# SİTENİN SAYFALARI VE ÖZELLİKLERİ
+
+Ana Sayfa: Sitenin genel tarzını, manifestosunu ve önde olan bisikletleri gösteren sayfadır.
+Bisiklet Katalog: Bisikletlerin listelendiği katalog sayfasıdır. Bisikletler kartlar içinde; fotoğraf, fiyat, kategori ve fiyat bilgilerini ile gelmektedir.
+Bisiklet Detay: Bisikletin özelliklerinin ve farklı renk seçeneklerinin gösterildiği sayfadır.
+Hakkında: Sitenin genel yapılış amacı ve niyetinin yazıldığı bir bilgilendirme sayfasıdır.
 
 # SAYFALARDAN BİRER EKRAN GÖRÜNTÜSÜ
-
 
 Ana Sayfa
 -
