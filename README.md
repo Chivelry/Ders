@@ -13,8 +13,11 @@ Kullanıcılara farklı fiyat, marka ve kategoride bisikletleri detayları ile b
 # SİTENİN SAYFALARI VE ÖZELLİKLERİ
 
 Ana Sayfa: Sitenin genel tarzını, manifestosunu ve önde olan bisikletleri gösteren sayfadır.
+
 Katalog: Bisikletlerin listelendiği katalog sayfasıdır. Bisikletler kartlar içinde; fotoğraf, fiyat, kategori ve fiyat bilgilerini ile gelmektedir.
+
 Bisiklet Detay: Bisikletin özelliklerinin ve farklı renk seçeneklerinin gösterildiği sayfadır.
+
 Hakkında: Sitenin genel yapılış amacı ve niyetinin yazıldığı bir bilgilendirme sayfasıdır.
 
 # SAYFALARDAN BİRER EKRAN GÖRÜNTÜSÜ
